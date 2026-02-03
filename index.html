@@ -273,7 +273,13 @@
     </style>
 </head>
 <body>
-
+        /* --- 横幅广告 --- */
+    <script type="text/javascript">
+        aclib.runAutoTag({
+            zoneId: 'fijfboh3zs',
+        });
+    </script>
+    
     <canvas id="sakura-canvas"></canvas>
 
     <nav>
@@ -285,7 +291,15 @@
             <a href="#"><i class="fas fa-user"></i> 关于我</a>
         </div>
     </nav>
-
+    /* --- 广告 --- */
+    <div style="text-align: center; margin: 20px 0;">
+        <script type="text/javascript">
+            aclib.runBanner({
+                zoneId: '10942362',
+            });
+        </script>
+    </div>
+    
     <header>
         <div class="hero-card">
             <h1><span style="color:var(--primary-color)">仅有一份的珍宝</span></h1>
@@ -540,5 +554,6 @@
         init();
     })();
 </script>
+<script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </body>
 </html>
